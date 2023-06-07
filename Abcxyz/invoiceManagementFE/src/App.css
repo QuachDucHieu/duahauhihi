@@ -1,0 +1,95 @@
+
+
+.card {
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  border: 1px solid #FFF;
+  width: 50%;
+  background-color: #f2f2f2; /* tùy chọn màu nền */
+  padding: 20px; /* tùy chọn độ dày padding */
+  box-sizing: border-box; /* tính cả border và padding vào kích thước của phần tử */
+  margin: 0 auto; /* căn giữa theo chiều ngang */
+  text-align: center; /* căn giữa các phần tử bên trong theo chiều ngang */
+}
+
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.header {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  padding: 20px;
+  background-image: linear-gradient(to bottom, beige, #f5f5dc 50%, ivory);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #FA897B;
+}
+
+.content {
+  flex: 1;
+  background: linear-gradient(to right, #88CDF6, #BCE6FF);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  font-size: 14px;
+  color: #666;
+  padding: 20px;
+  background-color: #1b1818;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.box {
+  /* background: linear-gradient(to bottom, #BCE6FF, #53A6D8); */
+  border: 1px solid #fff; /* đường viền 1 pixel với màu xám */
+  border-radius: 5px; /* bo góc 5 pixel */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* đổ bóng */
+  height: 200px; /* chiều cao */
+  width: 200px; /* chiều rộng */
+  margin: 0 auto; /* căn giữa */
+  text-align: center; /* căn giữa nội dung trong */
+  padding: 20px; /* khoảng cách giữa đường viền và nội dung */
+  transition: transform .2s ease;
+}
+
+.box:hover {
+  transform: scale(1.1);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f8f8f8;
+  padding: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.user img {
+  width: 30px;
+  height: 30px;
+}
